@@ -15,7 +15,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'General Security System',
+    title: 'D.C. Security Services',
     description:
       'A modern web application built with Next.js and AI integration, featuring intelligent user interactions and real-time data processing.',
     technologies: ['Next.js', 'TypeScript', 'AI/ML', 'Tailwind CSS'],
@@ -157,4 +157,3 @@ export default function Projects() {
     </section>
   )
 }
-
