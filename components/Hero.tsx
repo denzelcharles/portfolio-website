@@ -21,30 +21,30 @@ export default function Hero() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
 
-      <div className={`relative z-10 text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`relative z-10 text-center px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 md:pt-0 transition-opacity duration-1000 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-white animate-fade-in">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-white animate-fade-in leading-tight">
             Hi, I'm <span className="text-purple-300">Denzel Charles</span>
           </h1>
-          <p className="text-xl sm:text-2xl md:text-3xl mb-4 text-gray-300 animate-fade-in-delay">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-3 sm:mb-4 text-gray-300 animate-fade-in-delay px-2">
             I'm a <span className="text-purple-300">Police Officer</span>
           </p>
-          <p className="text-lg sm:text-xl md:text-2xl mb-6 text-gray-300 animate-fade-in-delay-2">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 text-gray-300 animate-fade-in-delay-2 px-2">
             and I'm learning to build with AI and Next.js
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in-delay-3 italic">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-400 mb-8 sm:mb-12 max-w-2xl mx-auto animate-fade-in-delay-3 italic px-4">
             Bridging law enforcement expertise with cutting-edge technology to create innovative solutions
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-4">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center animate-fade-in-delay-4 px-4">
             <a
               href="#projects"
-              className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50"
+              className="w-full sm:w-auto px-6 sm:px-8 py-2.5 sm:py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50 text-center"
             >
               View My Work
             </a>
             <a
               href="#contact"
-              className="px-8 py-3 bg-transparent border-2 border-purple-500 hover:bg-purple-500 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              className="w-full sm:w-auto px-6 sm:px-8 py-2.5 sm:py-3 bg-transparent border-2 border-purple-500 hover:bg-purple-500 text-white rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 text-center"
             >
               Get In Touch
             </a>
