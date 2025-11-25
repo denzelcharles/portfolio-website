@@ -32,9 +32,9 @@ export default function Hero() {
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 text-gray-300 animate-fade-in-delay-2 px-2">
             and I'm learning to build with AI and Next.js
           </p>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-400 mb-8 sm:mb-12 max-w-2xl mx-auto animate-fade-in-delay-3 italic px-4">
-            Bridging law enforcement expertise with cutting-edge technology to create innovative solutions
-          </p>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-400 mb-8 sm:mb-12 max-w-2xl mx-auto animate-fade-in-delay-3 italic px-4">
+                Bridging law enforcement expertise with cutting-edge technology to create innovative solutions ✨
+              </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center animate-fade-in-delay-4 px-4">
             <a
               href="#projects"
