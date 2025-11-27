@@ -8,6 +8,7 @@ Place your project images here.
 Please save your D.C. Security Services LTD logo image as:
 - **Filename**: `dc-security-logo.png` (or `.jpg`, `.webp`)
 - **Location**: `public/images/dc-security-logo.png`
+- **Description**: Logo with red, white, and black dragon/griffin design on black background
 
 ### 2. Denzel's Mega Farm Logo
 Please save your Denzel's Mega Farm logo image as:

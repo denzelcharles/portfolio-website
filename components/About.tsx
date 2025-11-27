@@ -127,16 +127,13 @@ export default function About() {
                   : 'opacity-0 translate-y-8 scale-95'
               }`}
             >
-              <div className="aspect-square rounded-xl sm:rounded-2xl bg-gradient-to-br from-purple-400 to-pink-400 p-1 max-w-xs sm:max-w-none mx-auto">
-                <div className="w-full h-full rounded-xl sm:rounded-2xl bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
-                  <div className="text-center p-4 sm:p-8">
-                    <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-3 sm:mb-4 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-2xl sm:text-4xl font-bold text-white">
-                      YN
-                    </div>
-                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                      Your Photo Here
-                    </p>
-                  </div>
+              <div className="aspect-square rounded-xl sm:rounded-2xl bg-gradient-to-br from-purple-400 to-pink-400 p-1 max-w-xs sm:max-w-none mx-auto overflow-hidden">
+                <div className="w-full h-full rounded-xl sm:rounded-2xl bg-gray-200 dark:bg-gray-800 relative overflow-hidden">
+                  <img
+                    src="/images/profile-picture.jpeg"
+                    alt="Denzel Charles - Police Officer and Developer"
+                    className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
+                  />
                 </div>
               </div>
               <div className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 w-16 h-16 sm:w-24 sm:h-24 bg-yellow-400 rounded-full opacity-20 blur-2xl"></div>

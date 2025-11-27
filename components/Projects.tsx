@@ -17,27 +17,27 @@ const projects: Project[] = [
     id: 1,
     title: 'D.C. Security Services LTD',
     description:
-      'A modern web application built with Next.js and AI integration, featuring intelligent user interactions and real-time data processing.',
+      'A comprehensive security services management platform designed to streamline operations for security companies. Features include client management, guard scheduling, incident reporting, and real-time monitoring dashboards. Built with modern web technologies and AI-powered analytics to help security firms optimize their services and improve response times.',
     technologies: ['Next.js', 'TypeScript', 'AI/ML', 'Tailwind CSS'],
-    image: '/images/dc-security-logo.png',
+    image: '/images/dc-security-logo.jpeg',
     link: '#',
   },
   {
     id: 2,
     title: "Denzel's mega farm",
     description:
-      'An interactive dashboard with advanced analytics, customizable widgets, and seamless data visualization for better decision-making.',
+      'An innovative agricultural management system designed for large-scale farming operations. The platform provides comprehensive farm management tools including crop tracking, livestock management, inventory control, weather monitoring, and financial analytics. Features real-time data visualization, automated reporting, and predictive analytics to help farmers make informed decisions and maximize productivity.',
     technologies: ['React', 'Node.js', 'Chart.js', 'PostgreSQL'],
-    image: '/images/denzel-mega-farm-logo.png',
+    image: '/images/denzel-mega-farm-logo.jpeg',
     link: '#',
   },
   {
     id: 3,
     title: "Denzel's investments",
     description:
-      'A full-stack e-commerce platform with secure payment processing, user authentication, and comprehensive admin management system.',
+      'A sophisticated investment portfolio management and financial planning platform. Enables users to track investments, analyze market trends, manage portfolios, and make data-driven investment decisions. Features include real-time stock market data integration, portfolio performance analytics, risk assessment tools, and automated investment recommendations powered by machine learning algorithms.',
     technologies: ['Next.js', 'Stripe', 'MongoDB', 'TypeScript'],
-    image: '/images/denzel-investments-logo.png',
+    image: '/images/denzel-investments-logo.jpeg',
     link: '#',
   },
 ]
